@@ -2,6 +2,13 @@
 
 All notable changes to the DS Editor extension will be documented in this file.
 
+## [1.4.0] 2023-07-26
+
+- Added support for RSE API
+- Added support for editing data in text view
+- Added commands to manage zowe profiles
+- Added configuration for managing zowe profiles
+
 ## [1.3.1]
 
 - Updated readme with gifs

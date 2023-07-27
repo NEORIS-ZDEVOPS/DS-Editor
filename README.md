@@ -6,7 +6,7 @@ This extension has been designed to help developers to manipulate  z/OS environ
 
 ## Features
 
-- Read, Edite and Write EBCDIC (datasets) files
+- Read, Edit and Write EBCDIC (datasets) files
 - Hexadecimal conversion
 - Apply Layouts using Copybooks
   - Alpha-Numeric Supprot
@@ -21,11 +21,11 @@ This extension has been designed to help developers to manipulate  z/OS environ
 
 ## Extension Settings
 
-This extension cannot be configured yet.
+Currently, you can modify how zowe profiles are managed through [dseditor.whereToSaveProfile] and [dseditor.autoOverwriteProfile].
 
 ## Known Issues
 
-- This editor is only able to edit existent rows right now and lacks other keys capabilities for a standalone use. Depending of the support for this project, these capabilities will be added.
+For a list of known issues and to raise your own, visit [our github page](https://github.com/NEORIS-ZDEVOPS/DS-Editor/issues).
 
 ## How to use
 
