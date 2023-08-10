@@ -2,6 +2,12 @@
 
 All notable changes to the DS Editor extension will be documented in this file.
 
+## [1.4.1] 2023-08-04
+
+- Fixed being unable to write into symbol and usymbol columns (yellow ones)
+- Fixed negative numbers being turned positive on edition
+- Changed how profiles are stored
+
 ## [1.4.0] 2023-07-26
 
 - Added support for RSE API

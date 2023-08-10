@@ -19,10 +19,6 @@ This extension has been designed to help developers to manipulate  z/OS environ
 
 - To use the z/OS connection capabilities, it is required to have configured a ZOWE profile. A ZOWE profile, in turn, requires the mainframe to have "zosmf" or "rse api".
 
-## Extension Settings
-
-Currently, you can modify how zowe profiles are managed through [dseditor.whereToSaveProfile] and [dseditor.autoOverwriteProfile].
-
 ## Known Issues
 
 For a list of known issues and to raise your own, visit [our github page](https://github.com/NEORIS-ZDEVOPS/DS-Editor/issues).
