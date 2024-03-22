@@ -15,16 +15,19 @@
 	- [Notes](#notes)
 
 ## Introduction<a id="introduction"></a>
-Optimize your operations with VSAM files using Neoris-vsam api in your mainframe. With the VSAM CRUD Extender, achieving CRUD (Create, Read, Update, Delete) in VSAM files is straightforward and effective. Designed to simplify your VSAM file management.
+NEORIS' VSAM API allows granullar CRUD (Create, Read, Update, Delete) operations with VSAM files from capable clients. File Editor Extension for z/OS is such capable client.
 
 ## Prerequisites <a id="prerequisites"></a>
-To utilize the VSAM functionality, it is essential to have the Neoris-vsamapi and IBM rseapi installed on the mainframe, along with the Zowe Explorer extension in Visual Studio Code (VSCode).
+To utilize the VSAM functionality, it is essential to have the NEORIS' VSAM API and IBM's RSE API set-up in the mainframe.
+
+To learn how to set-up NEOSRIS' VSAM API, get in touch with us [zdevops@neoris.com](mailto:zdevops@neoris.com?subject=About%20setting%20up%20VSAM%20API&body=Greetings%2C%0A%0AI'm%20interested%20in%20setting%20up%20NEORIS's%20VSAM%20API%20in%20a%20z%2FOS%20mainframe.%20Can%20I%20get%20information%20about%20the%20process%3F%0A%0ARegards.%0A).
 
 ## Operating mode<a id="operating-mode"></a>
 Is important to know that for every operation on the VSAM file(read, add, update and delete), the extension will make a request to the VSAM API.
 
 ## Use cases<a id="use-cases"></a>
-Note: All the operations are explained in table mode (we recommend using this mode for these types of files).
+Note: All the operations are explained in table mode (we encourage using this mode for VSAM files).
+
 ### Open a file<a id="open-a-file"></a>
 
 ![gif featuring open vsam file in table mode](./assets/openZoweVsamDSFile.gif)

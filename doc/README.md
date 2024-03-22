@@ -1,7 +1,7 @@
-# NEORIS File Editor Extension for z/OS<a id="ds-editor-extension-for-zos"></a>
+# File Editor Extension for z/OS<a id="ds-editor-extension-for-zos"></a>
 
 ## Table of contents<a id="table-of-contents"></a>
-- [NEORIS File Editor Extension for z/OS](#neoris-file-editor-extension-for-zos)
+- [File Editor Extension for z/OS](#file-editor-extension-for-zos)
 	- [Table of contents](#table-of-contents)
 	- [Introduction](#introduction)
 	- [Use cases](#use-cases)
@@ -14,11 +14,13 @@
 
 ## Introduction<a id="introduction"></a>
 
-**File Editor Extension for z/OS. It's an extension for Visual Studio Code that provide fully support to EBCDIC encoding for Sequential Data Sets.**
+**File Editor Extension for z/OS. It's an extension for Visual Studio Code that provides full support to EBCDIC encoding.**
 
-This extension has been designed to help developers to manipulate  z/OS environment files, and for those teams have adopted the open source software for z/OS development and DevOps under IBM z platform. Provides fully hexadecimal integration and EBCDIC support for sequential data sets, allowing to load a Copybook (Layout) from your application repository or even the same MVS system (Using Zore Explore). The files are unload to the local system to increase the performance and can be sincronized with the z/OS system once the changes has completed.
+This extension has been designed to help developers manipulate z/OS environment files for those teams that have adopted the open source software for z/OS development and DevOps under IBM Z platform. The extension provides hexadecimal peek and EBCDIC text support. In addition, it allows loading Copybooks (Layouts) from local or MVS hosted files with the help of [Zowe Explorer](vscode:extension/zowe.vscode-extension-for-zowe).
 
-Allows working with VSAM files (reading, creation, updating, and deletion of records), meeting the prerequisites
+Sequential datasets are downloaded to the local file system if accessed through [Zowe Explorer](vscode:extension/zowe.vscode-extension-for-zowe). These files can be synchronized manually.
+
+VSAM files require installing NEORIS' VSAM API in your mainframe. This API allows a granullar and precise control with improved performance.
 
 ## Use cases<a id="use-cases"></a>
 
