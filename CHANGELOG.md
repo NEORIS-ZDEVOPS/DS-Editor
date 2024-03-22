@@ -1,6 +1,12 @@
 # Change Log
 
-All notable changes to the DS Editor extension will be documented in this file.
+All notable changes to the NEORIS File Editor extension will be documented in this file.
+
+## [2.0.0] 2024-03-22
+- Added VSAM support! Check the documentation for more information.
+- Added search
+- Added capabilities to hide and show columns
+- Changed icon
 
 ## [1.4.1] 2023-08-04
 
