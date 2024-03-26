@@ -1,6 +1,11 @@
 # Change Log
 
-All notable changes to the NEORIS File Editor extension will be documented in this file.
+All notable changes to the File Editor extension for z/OS will be documented in this file.
+
+## [2.0.1] 2024-03-26
+- Changed texts
+- Fixed bug when parsing copybook with REDEFINE inside OCCURS
+- Fixed bug when parsing copybook with a REDEFINE group
 
 ## [2.0.0] 2024-03-22
 - Added VSAM support! Check the documentation for more information.

@@ -32,7 +32,7 @@ Prerequisite: Having the dataset file at hand.
 
 1. Open the dataset file
    1. Select "Open Anyway"
-   2. Choose NEORIS File Editor
+   2. Choose "z/OS File Editor"
 
 ### Change from text to table mode<a id="change-from-text-to-table-mode"></a>
 
@@ -57,7 +57,7 @@ Prerequisite: Having a  a copybook or json file opened and a  at hand.
 ![gif featuring read vsam file in table mode](./assets/openZoweVsamDSFile.gif)
 
 Support with VSAM
-Prerequisite: Having Neoris-vsamapi and IBM rseapi installed in mainframe and zowe explorer extension in vscode.
+Prerequisite: Having Neoris' VSAM API and IBM's RSE API installed in mainframe and [Zowe Explorer](vscode:extension/zowe.vscode-extension-for-zowe) installed.
 
 ## Links<a id="links"></a>
 

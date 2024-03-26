@@ -39,7 +39,7 @@
 
 1. Open the dataset file
    1. Select "Open Anyway"
-   2. Choose NEORIS File Editor
+   2. Choose "z/OS File Editor"
 
 ### Change Row Size
 

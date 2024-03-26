@@ -15,7 +15,9 @@
 	- [Notes](#notes)
 
 ## Introduction<a id="introduction"></a>
-NEORIS' VSAM API allows granullar CRUD (Create, Read, Update, Delete) operations with VSAM files from capable clients. File Editor Extension for z/OS is such capable client.
+NEORIS' VSAM API allows granullar CRUD (Create, Read, Update, Delete) operations with [KSDS VSAM](https://www.ibm.com/docs/en/zos/2.4.0?topic=types-key-sequenced-data-sets) files from capable clients. File Editor Extension for z/OS is such capable client.
+
+We have plans to expand the API's functionality.
 
 ## Prerequisites <a id="prerequisites"></a>
 To utilize the VSAM functionality, it is essential to have the NEORIS' VSAM API and IBM's RSE API set-up in the mainframe.
@@ -33,7 +35,7 @@ Note: All the operations are explained in table mode (we encourage using this mo
 ![gif featuring open vsam file in table mode](./assets/openZoweVsamDSFile.gif)
 
 1. Search the vsam file in zowe explorer in the Data Sets-> rse section
-2. In the results, right-click on any of the three files associated with the VSAM file, and select "Open with NEORIS File Editor."
+2. In the results, right-click on any of the three files associated with the VSAM file, and select "Open with z/OS File Editor."
 
 ### Create a record
 

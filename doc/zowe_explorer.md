@@ -19,7 +19,7 @@
 Prerequisite: Having a ZOWE connection opened.
 
 1. Right-click a dataset file
-2. Select "Open with NEORIS File Editor"
+2. Select "Open with z/OS File Editor"
 
 *Since the file will be downloaded first to the local file system, it might take a while*
 
