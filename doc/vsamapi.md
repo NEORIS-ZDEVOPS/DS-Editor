@@ -22,7 +22,7 @@ We have plans to expand the API's functionality.
 ## Prerequisites <a id="prerequisites"></a>
 To utilize the VSAM functionality, it is essential to have the NEORIS' VSAM API and IBM's RSE API set-up in the mainframe.
 
-To learn how to set-up NEOSRIS' VSAM API, get in touch with us [zdevops@neoris.com](mailto:zdevops@neoris.com?subject=About%20setting%20up%20VSAM%20API&body=Greetings%2C%0A%0AI'm%20interested%20in%20setting%20up%20NEORIS's%20VSAM%20API%20in%20a%20z%2FOS%20mainframe.%20Can%20I%20get%20information%20about%20the%20process%3F%0A%0ARegards.%0A).
+To learn how to set-up NEORIS' VSAM API, get in touch with us: [zdevops@neoris.com](mailto:zdevops@neoris.com?subject=About%20setting%20up%20VSAM%20API&body=Greetings%2C%0A%0AI'm%20interested%20in%20setting%20up%20NEORIS's%20VSAM%20API%20in%20a%20z%2FOS%20mainframe.%20Can%20I%20get%20information%20about%20the%20process%3F%0A%0ARegards.%0A).
 
 ## Operating mode<a id="operating-mode"></a>
 Is important to know that for every operation on the VSAM file(read, add, update and delete), the extension will make a request to the VSAM API.

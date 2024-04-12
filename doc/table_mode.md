@@ -139,7 +139,7 @@ Notes:
 - If the search does not return any result, a warning message will be launched:"There are no matches".
 
 #### Advanced Search
-The advanced search allows to search in multiple columns from a table in normal mode(include) and exhaustive mode(exactly the same)
+The advanced search allows to search in multiple columns in normal mode(include) and exhaustive mode(exactly the same)
 
 ![gif featuring advanced search in table mode](./assets/AdvancedTableSearch.gif)
 
@@ -159,28 +159,15 @@ The advanced search allows to search in multiple columns from a table in normal 
 
 
 - Valid patterns:
-	- T#building:(C#NAME | DIR:"haunted"), use the table "building" and use the columns "NAME" and "DIR" with the "haunted" value using the include option.
+	- ID | AGE:"5",  use the columns "ID" and "AGE" with the "5" value using the include option.
 
 	![advanced table search example 1](./assets/AdvanceTableSearch1.png)
 
-	- T#vehicle:(C#NAME | PLATE | COLOR="BK"), use the vehicle table  and use the columns "NAME", "PLATE" and "COLOR" with the "BK" value using the exhaustive option.
+	- ID | AGE | DEBT ="25", use the columns "ID", "AGE" and "DEBT" with the "25" value using the exhaustive option.
 	
 	![advanced table search example 2](./assets/AdvanceTableSearch2.png)
 
-	- T#:(C#TYPE | AGE:"2"), use the default table, "AGE" and "TYPE" columns with 2 include value.
-
-	![advanced table search example 3](./assets/AdvanceTableSearch3.png)
-
-	- T#vehicle, select the entire table.
-
-	![advanced table search example 4](./assets/AdvanceTableSearch4.png)
-
-	- T#, select the entire default table.
-
-	![advanced table search example 5](./assets/AdvanceTableSearch5.png)
-
-	- T#(C#TYPE | AGE | COLOR:"2"), select the entire default table(the same with any table) because the "COLOR" column doesn't exist, so it returns the entire table.
-
-	![advanced table search example 6](./assets/AdvanceTableSearch6.png)
-
+	- NAME = "Reagan" | AGE:"2", use the default table, "NAME" and "AGE" columns with exhaustive and include value.
+	
+	![advanced table search example 2](./assets/AdvanceTableSearch3.png)
 

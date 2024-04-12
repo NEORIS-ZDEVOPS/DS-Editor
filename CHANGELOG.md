@@ -2,6 +2,13 @@
 
 All notable changes to the File Editor extension for z/OS will be documented in this file.
 
+## [2.1.0] 2024-04-12
+- Added partial support for COMP-1, COMP-2, NATIONAL, and type aliases
+- Removed extra tables when redefines are present.
+- Fixed multiple bugs regarding copybooks with OCCURS
+- Fixed collapse menu not opening in place bug
+- Fixed multiple search bugs and updated documentation
+
 ## [2.0.1] 2024-03-26
 - Changed texts
 - Fixed bug when parsing copybook with REDEFINE inside OCCURS
