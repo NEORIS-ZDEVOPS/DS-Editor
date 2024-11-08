@@ -2,6 +2,15 @@
 
 All notable changes to the File Editor extension for z/OS will be documented in this file.
 
+## [2.2.0] 2024-10-30
+- Added text decodification selection functionality
+- Improved UI when editing rows in server stream mode
+- Fixed more bugs with copybooks with OCCURS and REDEFINES
+- Expanded capabilities with API VSAM API
+- Changed how the application interacts with zowe explorer profiles
+- Fixed some issues with VSAM state control
+- Fixed bug when fetching datasets with multiple ZOWE profiles configured in ZOWE explorer
+
 ## [2.1.0] 2024-04-12
 - Added partial support for COMP-1, COMP-2, NATIONAL, and type aliases
 - Removed extra tables when redefines are present.
