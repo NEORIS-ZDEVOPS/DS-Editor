@@ -2,6 +2,9 @@
 
 All notable changes to the File Editor extension for z/OS will be documented in this file.
 
+## [2.2.1] 2024-11-11
+- Extended support for zowe 3.0
+
 ## [2.2.0] 2024-10-30
 - Added text decodification selection functionality
 - Improved UI when editing rows in server stream mode
