@@ -2,6 +2,12 @@
 
 All notable changes to the File Editor extension for z/OS will be documented in this file.
 
+## [2.3.0] 2025-02-25
+- Added copybook comments to table view
+- Added control to load copys from workspace as a list
+- Lowered minimal vscode version required
+- Fixed copybook bugs
+
 ## [2.2.1] 2024-11-11
 - Extended support for zowe 3.0
 
